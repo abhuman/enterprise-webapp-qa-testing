@@ -1,2 +1,18 @@
-selenium
-pytest
+# Core Testing Dependencies
+selenium==4.15.2
+pytest==7.4.3
+webdriver-manager==4.0.1
+
+# Environment & Configuration
+python-dotenv==1.0.0
+
+# Test Reporting & Coverage
+pytest-html==4.1.1
+pytest-cov==4.1.0
+allure-pytest==2.13.2
+
+# Parallel Execution
+pytest-xdist==3.5.0
+
+# Additional Utilities
+requests==2.31.0
